@@ -4,13 +4,13 @@ ghpages.publish(
     '__sapper__/export',
     {
         branch: 'master',
-        repo: 'https://github.com/rodrigodivino/edge-bundling',
+        repo: 'https://github.com/rodrigodivino/parallel-bundling',
         user: {
             name: 'rodrigodivino',
             email: 'rodrigodivino.ufpa@gmail.com'
         }
     },
     () => {
-        console.log('Deploy Complete!')
+        console.log('Foi!')
     }
 )
