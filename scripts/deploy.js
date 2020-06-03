@@ -1,7 +1,7 @@
 const ghpages = require('gh-pages');
 
 ghpages.publish(
-    '__sapper__/export',
+    '__sapper__/export/parallel-bundling',
     {
         branch: 'gh-pages',
         repo: 'https://github.com/rodrigodivino/parallel-bundling',
