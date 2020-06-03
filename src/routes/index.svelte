@@ -38,7 +38,7 @@
 </style>
 
 <svelte:head>
-  <title>Missing values diagnosis</title>
+  <title>Edge Bundling</title>
 </svelte:head>
 
 {#if ok}
