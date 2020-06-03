@@ -1,5 +1,5 @@
 const ghpages = require('gh-pages');
-
+console.log('Iniciando deploy')
 ghpages.publish(
     '__sapper__/export/parallel-bundling',
     {

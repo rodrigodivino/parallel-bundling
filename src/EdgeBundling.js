@@ -30,7 +30,7 @@ class ParallelBundling extends Visualization{
         super(parentElement, settings);
         this.animation = true;
         this.clusterOn = 'all';
-        this.colorScheme = ['firebrick', 'mediumseagreen', 'steelblue', 'gold', 'chocolate', 'magenta'];
+        this.colorScheme = d3.schemeTableau10; //['firebrick', 'mediumseagreen', 'steelblue', 'gold', 'chocolate', 'magenta'];
         this.clusterColor = someCluster => {
             if (this.clusterTags.includes(someCluster)){
                 return this.colorScheme[this.clusterTags.indexOf(someCluster)];
